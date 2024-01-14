@@ -1,16 +1,12 @@
-# This is a sample Python script.
+print("Welcome to the tip calculator!")
+bill = float(input("What was the total bill? "))
+tip = int(input("How much tip would you like to give? 10, 12, or 15? "))
+party = int(input("How many people to split the bill? "))
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+tip_as_percent = tip / 100
+total_tip_amount = bill * tip_as_percent
+total_bill = bill + total_tip_amount
+bill_per_person = total_bill / party
+final_amount = round(bill_per_person, 2)
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(f"Each person should pay: ${final_amount}")
