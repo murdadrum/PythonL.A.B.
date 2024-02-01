@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../005-LoopFruits/.idea/005-LoopFruits.iml" filepath="$PROJECT_DIR$/../005-LoopFruits/.idea/005-LoopFruits.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/005-Loops.iml" filepath="$PROJECT_DIR$/.idea/005-Loops.iml" />
     </modules>
   </component>
